@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.nav {
+    display: inline;
+    position: sticky;
+    background-color: #000;
+}
+
+ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+    list-style: none;
+    height: 50px;
+    width: 100%;
+    word-spacing: 20px;
+    font-size: 20px;
+    float: left;
+
+}
+
+li,
+a {
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.li-1:hover {
+    background-color: #ff0000;
+    transform: scale(1.5);
+}
+
+.li-1:active {
+    background-color: #6a666e;
+}
+
+.head-1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-style: none;
+    text-align: left;
+    color: #cc0c0c;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.img-1 {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    padding-left: 25px;
+    margin-left: 20px;
+}
+
+.login {
+    display: inline;
+    float: inline-end;
+    background-color: #ff0000;
+    margin: 20px;
+    width: 80px;
+    text-align: center;
+    height: 50%;
+    font-size: 15px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #af3232;
+    transform: scale(1.5);
+}
+
+.img-2 {
+    margin-top: 50px;
+    display: inline;
+    width: 100%;
+    height: 50%;
+}
+
+.img-2:hover {
+    transform: scale(1);
+}
+
+.h-1 {
+    display: flex;
+    font-size: 18px;
+    border-left: 3px solid red;
+    border-radius: 2px;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 100px;
+
+}
+
+/* open menu */
+
+.box-1 {
+    height: 500px;
+    height: 400px;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.box {
+    width: 30%;
+    height: 310px;
+    border-radius: 2px;
+    margin-left: 100px;
+    background-color: #232224;
+    border: 2px solid none;
+    margin-top: 20px;
+    scroll-snap-align: start;
+}
+
+
+.img-3 {
+    width: 100%;
+    border: 2px solid none;
+    border-radius: 2px;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+}
+
+.img-3:hover {
+    transform: scale(1.04);
+}
+
+.name {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.size {
+    margin-top: 5px;
+    font-size: 12px;
+    float: right;
+    align-items: end;
+    color: #fff;
+}
+
+.price {
+    font-size: 18px;
+    float: right;
+    color: #fff;
+    margin-right: 5px;
+}
+
+/* button{
+    text-transform: uppercase;
+   color: #fff;
+   background-color: #cc0c0c;
+   justify-content: end;
+   text-align: center;
+   align-items: end;
+} */
+.Box-1 {
+    width: 30%;
+    height: 310px;
+    border-radius: 2px;
+    margin-left: 50px;
+    background-color: #232224;
+    border: 2px solid none;
+    margin-top: 20px;
+    scroll-snap-align: start;
+}
+
+.containers {
+    width: 100vw;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.container {
+    width: 25%;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: auto;
+    margin-top: 8vh;
+    margin-left: 100px;
+    border: 2px solid rgb(13, 14, 13);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.7);
+    transition: 0.2s ease-in-out;
+    scroll-snap-align: start;
+}
+
+.Container {
+    width: 25%;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: auto;
+    margin-top: 8vh;
+    margin-left: 50px;
+    border: 2px solid rgb(13, 14, 13);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.7);
+    transition: 0.2s ease-in-out;
+    scroll-snap-align: start;
+}
+
+/* .container:hover{
+    transform: scale(1.04);
+} */
+
+.image img {
+    width: 80%;
+    margin-left: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    cursor: pointer;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
+
+.h1 {
+    font-size: 10px;
+    color: #fff;
+}
+
+.price-2 {
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+.para p {
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.para button {
+    text-align: left;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: crimson;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.para button:hover {
+    transform: scale(1.08);
+}
+/* .last-last{
+    display: inline-block;
+} */
+
+.last{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-top: 80%;
+    justify-items: center;
+    border: none;
+    border-radius: 5px;
+    transform: translate(50%, 50%);
+    background-image: url('https://www.kfcpakistan.com/static/media/pickup-banner.01fde5a7db5ef06f7bce.png');
+    animation:slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{  background-image: url('https://www.kfcpakistan.com/static/media/pickup-banner.01fde5a7db5ef06f7bce.png'); }
+
+    35%{ background-image: url('https://www.kfcpakistan.com/static/media/favorites-banner.afff26bc6d0127f68baa.png');}
+
+    /* 75%{ background-image: url('https://play.google.com/store/apps/details?id=io.bramerz.kfc&hl=en&gl=US');} */
+}
+
+/* end menu */
+
+/* start footer */
+footer{
+    display: flex;
+    background-color: #232224;
+    margin-top: 52%;
+    margin-bottom: 20px;
+
+}
+.logo{
+    display: inline;
+    font-size: 80px;
+    font-family: "Poppins",sans-serif;
+    margin-left: 45rem;
+    color: #bd0404;
+    padding-bottom: 25%;
+    padding-top: 20px;
+}
+.icon{
+    font-size: 30px;
+    display: inline;
+    /* padding-bottom: 25%; */
+    padding-top: 60px;
+    margin-left: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+strong{
+    color: #fff;
+    background-color: #000;
+    font-family: "Poppins","Roboto",sans-serif;
+    font-size: 30px;
+    /* height: 50px; */
+    /* width: 100%; */
+    margin-left: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
